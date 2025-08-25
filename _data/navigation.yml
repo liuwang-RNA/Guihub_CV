@@ -14,8 +14,6 @@ main:
     url: /research/
   - title: "📚 Publications"
     url: /publications/
-  - title: "🎤 Presentation"
-    url: /presentation/
   - title: "📰 News"
     url: /news/
   - title: "📄 CV"
