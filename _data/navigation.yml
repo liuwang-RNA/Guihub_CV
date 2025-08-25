@@ -10,15 +10,16 @@
 main:
   - title: "🏠 Home"
     url: /
-  - title: "Research"
+  - title: "🔬 Research"
     url: /research/
-  - title: "Publications"
+  - title: "📚 Publications"
     url: /publications/
-  - title: "Presentation"
+  - title: "🎤 Presentation"
     url: /presentation/
-  - title: "News"
+  - title: "📰 News"
     url: /news/
-  - title: "CV"
+  - title: "📄 CV"
     url: /cv/
-  - title: "Out of lab"
+  - title: "🌱 Out of lab"
     url: /out_of_lab/
+
