@@ -92,13 +92,37 @@ Research interests
 ======
 
 <div class="research-card">
-  <h3><a href="{{ '/research/' | relative_url }}">Resolving the 3D structures of bacteria ncRNAs via cryo-EM</a></h3>
+  <h3><a href="{{ '/research/' | relative_url }}">Resolving the 3D structures of bacterial ncRNAs via cryo-EM</a></h3>
   <img src="{{ '/images/homepage/image1.png' | relative_url }}" alt="Resolving the 3D structures of bacteria ncRNAs via cryo-EM">
   <p><strong>RNA structures, multivalency, and catalysis.</strong><br>
-  We resolve the three-dimensional structures of bacterial noncoding RNAs via cryo-EM and related biochemical methods:<br>
-  <strong>1. Self-splicing ribozymes</strong> —— uncovering the molecular basis of their two-step splicing reaction that produces circular RNAs.<br>
-  <strong>2. RNA-only oligomeric assemblies</strong> —— elucidating the structural principles that drive higher-order homo-oligomerization of RNAs.</p>
+  We resolve the three-dimensional structures of bacterial noncoding RNAs via cryo-EM and related biochemical methods:</p>
+
+  <ul class="custom-list">
+    <li><strong>Self-splicing ribozymes</strong> —— uncovering the molecular basis of their two-step splicing reaction that produces circular RNAs.</li>
+    <li><strong>RNA-only oligomeric assemblies</strong> —— elucidating the structural principles that drive higher-order homo-oligomerization of RNAs.</li>
+  </ul>
 </div>
+
+<!-- 自定义列表样式 -->
+<style>
+  .custom-list {
+    list-style: none;         /* 去掉默认圆点 */
+    padding-left: 1em;        /* 左缩进，避免贴边 */
+  }
+  .custom-list li {
+    position: relative;
+    margin: 6px 0;
+    padding-left: 1.2em;      /* 给自定义符号留空间 */
+  }
+  .custom-list li::before {
+    content: "·";             /* 自定义符号 */
+    position: absolute;
+    left: 0;
+    color: #444;              /* 符号颜色 */
+    font-size: 1.4rem;        /* 符号大小 */
+    line-height: 1;
+  }
+</style>
 
 <div class="research-card">
   <h3><a href="{{ '/research/' | relative_url }}">Discovery of conserved structural RNA elements</a></h3>
