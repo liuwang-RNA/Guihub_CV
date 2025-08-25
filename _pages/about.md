@@ -90,44 +90,46 @@ and <a href="https://liuwang-rna.github.io/Guihub_CV/publication/2025-05-15" tar
 
 Research interests
 ======
-My research interests focus on:
-1. Elucidating the three-dimensional structures and molecular mechanisms of bacterial noncoding RNAs using cryo-electron microscopy and other structural biology approaches.
-2. Integrating bioinformatics and molecular biology to identify and characterize structurally and functionally conserved RNA elements.
-
-<!-- Two full-width clickable research banners -->
+<!-- Two research interest modules: Title → Image → Description -->
 <style>
-  .research-hero{position:relative;display:block;margin:16px 0;border-radius:12px;overflow:hidden;border:1px solid #e5e7eb}
-  .research-hero img{width:100%;height:auto;display:block;aspect-ratio:16/9;object-fit:cover}
-  .research-hero .overlay{
-    position:absolute;inset:0;
-    display:flex;align-items:flex-end;
-    background:linear-gradient(180deg,rgba(0,0,0,0) 40%,rgba(0,0,0,.55) 100%);
-    padding:14px 16px;color:#fff
+  .research-card {
+    margin: 24px 0;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px;
+    background: #fff;
   }
-  .research-hero h3{margin:0 0 4px 0;font-size:1.25rem}
-  .research-hero p{margin:0;font-size:.95rem;opacity:.95}
+  .research-card h3 {
+    margin-top: 0;
+    font-size: 1.3rem;
+    color: #1f2937;
+  }
+  .research-card img {
+    width: 100%;
+    height: auto;
+    margin: 12px 0;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    object-fit: cover;
+  }
+  .research-card p {
+    font-size: 1rem;
+    color: #374151;
+    margin: 0;
+  }
 </style>
 
-<a class="research-hero" href="{{ '/research/' | relative_url }}">
+<div class="research-card">
+  <h3><a href="{{ '/research/' | relative_url }}">Structural biology of bacterial ncRNAs</a></h3>
   <img src="{{ '/images/research/module1.jpg' | relative_url }}" alt="Structural biology of bacterial ncRNAs">
-  <div class="overlay">
-    <div>
-      <h3>Structural biology of bacterial ncRNAs</h3>
-      <p>Cryo-EM structures, multivalency, and catalysis</p>
-    </div>
-  </div>
-</a>
+  <p>Cryo-EM structures, multivalency, and catalysis.</p>
+</div>
 
-<a class="research-hero" href="{{ '/research/' | relative_url }}">
+<div class="research-card">
+  <h3><a href="{{ '/research/' | relative_url }}">Conserved RNA elements</a></h3>
   <img src="{{ '/images/research/module2.jpg' | relative_url }}" alt="Conserved RNA elements">
-  <div class="overlay">
-    <div>
-      <h3>Conserved RNA elements</h3>
-      <p>Comparative genomics → prediction → experimental validation</p>
-    </div>
-  </div>
-</a>
-
+  <p>Comparative genomics → prediction → experimental validation.</p>
+</div>
 
 Getting started
 ======
