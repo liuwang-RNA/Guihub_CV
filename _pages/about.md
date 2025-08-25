@@ -120,14 +120,14 @@ Research interests
 </style>
 
 <div class="research-card">
-  <h3><a href="{{ '/research/' | relative_url }}">Structural biology of bacterial ncRNAs</a></h3>
-  <img src="{{ '/images/research/module1.jpg' | relative_url }}" alt="Structural biology of bacterial ncRNAs">
+  <h3><a href="{{ '/research/' | relative_url }}">Resolving the 3D structures of bacteria ncRNAs via cryo-EM</a></h3>
+  <img src="{{ '/images/research/image1.png' | relative_url }}" alt="Resolving the 3D structures of bacteria ncRNAs via cryo-EM">
   <p>Cryo-EM structures, multivalency, and catalysis.</p>
 </div>
 
 <div class="research-card">
-  <h3><a href="{{ '/research/' | relative_url }}">Conserved RNA elements</a></h3>
-  <img src="{{ '/images/research/module2.jpg' | relative_url }}" alt="Conserved RNA elements">
+  <h3><a href="{{ '/research/' | relative_url }}">Discovery of conserved structural RNA elements</a></h3>
+  <img src="{{ '/images/research/image2.png' | relative_url }}" alt="Discovery of conserved structural RNA elements">
   <p>Comparative genomics → prediction → experimental validation.</p>
 </div>
 
