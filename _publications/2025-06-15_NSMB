@@ -4,12 +4,12 @@ collection: publications
 category: manuscripts
 permalink: /publication/2025-06-15_NSMB
 excerpt: >
-  <img src="{{ '/images/publications/o.png' | relative_url }}" class="pub-thumb" alt="Cryo-EM density">
+  <img src="/Guihub_CV/images/publications/o.png" class="pub-thumb" alt="Cryo-EM density">
   We employed cryo-EM to determine dynamics of circularly permuted group II intron self-splicing.
 date: 2025-06-15
-venue: 'Nature Structural & Molecular Biology'
-slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: 'https://github.com/liuwang-RNA/Guihub_CV/tree/master/files/2025_NSMB_final.pdf'
+venue: "Nature Structural & Molecular Biology"
+slidesurl: "/Guihub_CV/files/slides3.pdf"
+paperurl: "/Guihub_CV/files/2025_NSMB_final.pdf"
 citation: 'Wang, L., Xie, J., Zhang, C. et al. Structural basis of circularly permuted group II intron self-splicing. Nat Struct Mol Biol 32, 1091–1100 (2025). https://doi.org/10.1038/s41594-025-01484-x'
 ---
 
@@ -47,17 +47,17 @@ citation: 'Wang, L., Xie, J., Zhang, C. et al. Structural basis of circularly pe
 <div class="figure-row">
   <!-- 左边：静态图片 -->
   <div class="col">
-    <img src="{{ '/images/publications/o.png' | relative_url }}" alt="Static image of RNA complex">
-    <div class="figcaption"><em>Figure 1.</em> Cryo-EM density map of RNA homooligomers</div>
+    <img src="{{ '/images/publications/Cte.png' | relative_url }}" alt="Static image of RNA complex">
+    <div class="figcaption"><em>Figure 1.</em> Cryo-EM maps of CP group II introns self-splicing </div>
   </div>
 
   <!-- 右边：MP4 视频 -->
   <div class="col">
     <video autoplay loop muted playsinline>
-      <source src="{{ '/images/publications/o.mp4' | relative_url }}" type="video/mp4">
+      <source src="{{ '/images/publications/Cte.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-    <div class="figcaption"><em>Figure 2.</em> Cryo-EM density map of ROOL RNA hexamer from <em>Lactobaccilus salivarius</em> </div>
+    <div class="figcaption"><em>Figure 2.</em> Dynamics of CP group II intron self-splicing </div>
   </div>
 </div>
 
