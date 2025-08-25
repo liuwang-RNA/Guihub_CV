@@ -103,6 +103,6 @@ Research interests
 <div class="research-card">
   <h3><a href="{{ '/research/' | relative_url }}">Discovery of conserved structural RNA elements</a></h3>
   <img src="{{ '/images/homepage/image2.png' | relative_url }}" alt="Discovery of conserved structural RNA elements">
-  <p>Comparative genomics → prediction → experimental validation.</p>
+  <p>Comparative genomics, structural RNA elements mining, and experimental validation.</p>
 </div>
 
