@@ -24,7 +24,7 @@ My research interests focus on:
 
 <div style="text-align:center; margin: 20px 0;">
   <video autoplay loop muted playsinline style="max-width:90%; border-radius:10px;">
-    <source src="{{ '/images/homepage.png' | relative_url }}" type="video/mp4">
+    <source src="{{ '/images/homepage_banner.png' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
