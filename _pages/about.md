@@ -91,35 +91,6 @@ and <a href="https://liuwang-rna.github.io/Guihub_CV/publication/2025-05-15" tar
 Research interests
 ======
 
-<!-- Two research interest modules: Title → Image → Description -->
-<style>
-  .research-card {
-    margin: 24px 0;
-    border: 1px solid #e5e7eb;
-    border-radius: 12px;
-    padding: 16px;
-    background: #fff;
-  }
-  .research-card h3 {
-    margin-top: 0;
-    font-size: 1.3rem;
-    color: #1f2937;
-  }
-  .research-card img {
-    width: 100%;
-    height: auto;
-    margin: 12px 0;
-    border-radius: 8px;
-    border: 1px solid #e5e7eb;
-    object-fit: cover;
-  }
-  .research-card p {
-    font-size: 1rem;
-    color: #374151;
-    margin: 0;
-  }
-</style>
-
 <div class="research-card">
   <h3><a href="{{ '/research/' | relative_url }}">Resolving the 3D structures of bacteria ncRNAs via cryo-EM</a></h3>
   <img src="{{ '/images/homepage/image1.png' | relative_url }}" alt="Resolving the 3D structures of bacteria ncRNAs via cryo-EM">
