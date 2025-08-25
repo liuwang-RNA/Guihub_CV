@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a postdoctoral researcher at the West China Hospital of Stomatology and the State Key Laboratory of Stomatology, as well as the West China Hospital and the State Key Laboratory of Biotherapy, Sichuan University. During my doctoral studies, I was jointly supervised by Prof. Zhaoming Su and Prof. Dingming Huang, under whose guidance I published several research articles in leading journals such as <em><strong>Science</em></strong>, <strong><em>Nature Structural & Molecular Biology</em></strong>, and <strong><em>Nature Protocols</em></strong>. My research interests focus on:
+I am currently a postdoctoral researcher at the West China Hospital of Stomatology and the State Key Laboratory of Stomatology, as well as the West China Hospital and the State Key Laboratory of Biotherapy, Sichuan University. During my doctoral studies, I was jointly supervised by Prof. Zhaoming Su and Prof. Dingming Huang, under whose guidance I published several research articles in leading journals such as <strong><em>Science</em></strong>, <strong><em>Nature Structural & Molecular Biology</em></strong>, and <strong><em>Nature Protocols</em></strong>. My research interests focus on:
 1. Elucidating the three-dimensional structures and molecular mechanisms of bacterial noncoding RNAs using cryo-electron microscopy and other structural biology approaches.
 2. Integrating bioinformatics and molecular biology to identify and characterize structurally and functionally conserved RNA elements.
 
