@@ -13,8 +13,8 @@ title                    : "Liu Wang / RNA Structural Biology"
 title_separator          : "-"
 name                     : &name "Liu Wang"
 description              : &description "Postdoctoral researcher at West China Hospital of Stomatology, Sichuan University"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://liuwang-RNA.github.io"
-baseurl                  : ""
+url                      : "https://liuwang-RNA.github.io"
+baseurl                  : "/Guihub_CV"
 repository               : "liuwang-RNA/Guihub_CV"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
