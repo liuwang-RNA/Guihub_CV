@@ -13,20 +13,16 @@ paperurl: "/Guihub_CV/files/2025_NSMB_final.pdf"
 citation: 'Wang, L., Xie, J., Zhang, C. et al. Structural basis of circularly permuted group II intron self-splicing. Nat Struct Mol Biol 32, 1091–1100 (2025). https://doi.org/10.1038/s41594-025-01484-x'
 ---
 
-<!-- 两栏图：左图 / 右图，桌面端各占50%，手机端自动堆叠 -->
+<!-- 单图展示 -->
 <style>
-  .figure-row {
+  .figure-single {
     display: flex;
-    gap: 16px;
     justify-content: center;
-    flex-wrap: wrap;
+    margin: 16px 0;
   }
-  .figure-row .col {
-    flex: 0 0 48%;  /* 每列约一半宽度 */
-  }
-  .figure-row img,
-  .figure-row video {
-    width: 100%;
+  .figure-single img {
+    width: 80%;   /* 图像宽度，占屏幕的 80% */
+    max-width: 600px;
     height: auto;
     border: 1px solid #e5e7eb;
     border-radius: 8px;
@@ -37,27 +33,12 @@ citation: 'Wang, L., Xie, J., Zhang, C. et al. Structural basis of circularly pe
     text-align: center;
     margin-top: 6px;
   }
-  @media (max-width: 900px) {
-    .figure-row .col {
-      flex: 1 1 100%;
-    }
-  }
 </style>
 
-<div class="figure-row">
-  <!-- 左边：静态图片 -->
-  <div class="col">
-    <img src="{{ '/images/publications/Cte.png' | relative_url }}" alt="Static image of RNA complex">
-    <div class="figcaption"><em>Figure 1.</em> Cryo-EM maps of CP group II introns self-splicing </div>
-  </div>
-
-  <!-- 右边：MP4 视频 -->
-  <div class="col">
-    <video autoplay loop muted playsinline>
-      <source src="{{ '/images/publications/Cte.mp4' | relative_url }}" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <div class="figcaption"><em>Figure 2.</em> Dynamics of CP group II intron self-splicing </div>
+<div class="figure-single">
+  <div>
+    <img src="{{ '/images/publications/Cte.png' | relative_url }}" alt="Cryo-EM map of CP group II intron">
+    <div class="figcaption"><em>Figure 1.</em> Cryo-EM map of CP group II intron self-splicing</div>
   </div>
 </div>
 
