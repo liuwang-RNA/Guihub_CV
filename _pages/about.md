@@ -94,7 +94,10 @@ Research interests
 <div class="research-card">
   <h3><a href="{{ '/research/' | relative_url }}">Resolving the 3D structures of bacteria ncRNAs via cryo-EM</a></h3>
   <img src="{{ '/images/homepage/image1.png' | relative_url }}" alt="Resolving the 3D structures of bacteria ncRNAs via cryo-EM">
-  <p>Cryo-EM structures, multivalency, and catalysis.</p>
+  <p><strong>RNA structures, RNA multivalency, and RNA catalysis.</strong> 
+  We resolve the three-dimensional structures of bacterial noncoding RNAs via cryo-EM and related biochemical methods:
+  1. Self-splicing catalytic RNAs (ribozymes), where our work uncovers the molecular mechanism of their two-step splicing reaction that generates circular RNAs.
+  2. RNA-only assemblies that form higher-order homo-oligomeric structures, where we elucidate the structural basis underlying their multimerization.</p>
 </div>
 
 <div class="research-card">
