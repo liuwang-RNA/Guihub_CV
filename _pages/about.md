@@ -57,7 +57,7 @@ My research interests focus on:
   <!-- 视频 1 -->
   <div class="video-item">
     <video autoplay loop muted playsinline>
-      <source src="{{ '/images/homepage/Cte.mp4' | relative_url }}" type="video/mp4">
+      <source src="{{ '/images/homepage/Lsa.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <div class="video-caption">CryoEM structure of <em>Lactobacillus salivarius</em> ROOL RNA hexamer.</div>
