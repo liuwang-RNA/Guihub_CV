@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a postdoctoral researcher at <a href="https://www.hxkq.org/" target="_blank">West China Hospital of Stomatology</a> and the 
-<a href="http://www.sklod.org/" target="_blank">State Key Laboratory of Stomatology</a>, as well as 
-<a href="https://www.wchscu.cn/Home.html" target="_blank">West China Hospital</a> and the 
-<a href="https://sklb.scu.edu.cn/" target="_blank">State Key Laboratory of Biotherapy</a>, 
-<a href="https://www.scu.edu.cn/" target="_blank">Sichuan University</a>.
+I am currently a postdoctoral researcher at <a href="https://www.hxkq.org/" target="_blank">West China Hospital of Stomatology</a> and 
+<a href="http://www.sklod.org/" target="_blank">the State Key Laboratory of Stomatology</a>, as well as 
+<a href="https://www.wchscu.cn/Home.html" target="_blank">West China Hospital</a> and 
+<a href="https://sklb.scu.edu.cn/" target="_blank">the State Key Laboratory of Biotherapy</a>, 
+<a href="https://en.scu.edu.cn/" target="_blank">Sichuan University</a>.
 During my doctoral studies, I was jointly supervised by 
 <a href="https://zsulab.com/" target="_blank">Prof. Zhaoming Su</a> and <a href="https://www.hxkq.org/Html/News/Articles/10880.html" target="_blank">Prof. Dingming Huang</a>, 
 under whose guidance I published several research articles in leading journals such as 
