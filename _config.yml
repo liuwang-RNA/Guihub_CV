@@ -22,12 +22,12 @@ repository               : "liuwang-RNA/Guihub_CV"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "liuwang.png"
   name             : "Liu Wang"
   pronouns         : "he/him"  
   bio              : "Postdoc researcher focusing on RNA and RNA–protein complexes structures in bacteria, combining bioinformatics, molecular biology, and cryo-EM."
   location         : "Chengdu, China"
-  employer         : "West China Hospital of Stomatology, Sichuan University"
+  employer         : "West China Hospital of Stomatology"
   uri              : "https://scholar.google.com/citations?hl=en&tzom=-480&user=8kjSuv8AAAAJ"
   email            : "liuwang@scu.edu.cn" 
 
@@ -134,7 +134,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : LWANG_SCU
 facebook:
   username               :
   app_id                 :
