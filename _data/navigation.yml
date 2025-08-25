@@ -9,19 +9,19 @@
 
 main:
     - title: "Research"
-    url: /Research/   
+    url: /research/   
   
   - title: "Publications"
     url: /publications/ 
 
   - title: "Presentation"
-    url: /Presentation/    
+    url: /presentation/    
     
   - title: "News"
-    url: /News/
+    url: /news/
         
   - title: "CV"
-    url: /CV/
+    url: /cv/
     
   - title: "Out of lab"
-    url: /Out of lab/
+    url: /out_of_lab/
