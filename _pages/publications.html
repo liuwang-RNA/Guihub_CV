@@ -11,6 +11,21 @@ author_profile: true
 
 {% include base_path %}
 
+<!-- 缩略图样式 -->
+<style>
+  .pub-thumb {
+    width:120px;
+    height:auto;
+    border:1px solid #e5e7eb;
+    border-radius:6px;
+    float:left;
+    margin:0 12px 6px 0;
+  }
+  @media (max-width: 600px){
+    .pub-thumb { width:30%; }
+  }
+</style>
+
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
