@@ -1,15 +1,15 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Welcome to Liu Wang's personal website!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
-
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I am currently a postdoctoral researcher at the West China Hospital of Stomatology and the State Key Laboratory of Stomatology, as well as the West China Hospital and the State Key Laboratory of Biotherapy, Sichuan University. During my doctoral studies, I was jointly supervised by Prof. Zhaoming Su and Prof. Dingming Huang, under whose guidance I published several research articles in leading journals such as Science, Nature Structural & Molecular Biology, and Nature Protocols. My research interests focus on:
+1. Elucidating the three-dimensional structures and molecular mechanisms of bacterial noncoding RNAs using cryo-electron microscopy and other structural biology approaches.
+2. Integrating bioinformatics and molecular biology to identify and characterize structurally and functionally conserved RNA elements.
 
 A data-driven personal website
 ======
