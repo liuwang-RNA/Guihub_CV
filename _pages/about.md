@@ -23,7 +23,10 @@ My research interests focus on:
 2. Integrating bioinformatics and molecular biology to identify and characterize structurally and functionally conserved RNA elements.
 
 <div style="text-align:center; margin: 20px 0;">
-  <img src="{{ '/images/homepage.png' | relative_url }}" alt="Homepage banner" style="max-width:90%; border-radius:10px;"/>
+  <video autoplay loop muted playsinline style="max-width:90%; border-radius:10px;">
+    <source src="{{ '/images/homepage.png' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </div>
 
 A data-driven personal website
