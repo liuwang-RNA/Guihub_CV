@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to Liu Wang's personal website!"
+title: "Welcome to my RNA world!"
 author_profile: true
 redirect_from: 
   - /about/
