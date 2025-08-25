@@ -12,7 +12,13 @@ I am currently a postdoctoral researcher at <a href="https://www.hxkq.org/" targ
 <a href="https://www.wchscu.cn/Home.html" target="_blank">West China Hospital</a> and the 
 <a href="https://sklb.scu.edu.cn/" target="_blank">State Key Laboratory of Biotherapy</a>, 
 <a href="https://www.scu.edu.cn/" target="_blank">Sichuan University</a>.
-During my doctoral studies, I was jointly supervised by Prof. Zhaoming Su and Prof. Dingming Huang, under whose guidance I published several research articles in leading journals such as <strong><em>Science</em></strong>, <strong><em>Nature Structural & Molecular Biology</em></strong>, and <strong><em>Nature Protocols</em></strong>. My research interests focus on:
+During my doctoral studies, I was jointly supervised by 
+<a href="https://zsulab.com/" target="_blank">Prof. Zhaoming Su</a> and Prof. Dingming Huang, 
+under whose guidance I published several research articles in leading journals such as 
+<a href="https://liuwang-rna.github.io/Guihub_CV/publication/2025-05-01_Science" target="_blank"><strong><em>Science</em></strong></a>, 
+<a href="https://liuwang-rna.github.io/Guihub_CV/publication/2025-06-15_NSMB" target="_blank"><strong><em>Nature Structural & Molecular Biology</em></strong></a>, 
+and <a href="https://liuwang-rna.github.io/Guihub_CV/publication/2025-05-15" target="_blank"><strong><em>Nature Protocols</em></strong></a>.
+My research interests focus on:
 1. Elucidating the three-dimensional structures and molecular mechanisms of bacterial noncoding RNAs using cryo-electron microscopy and other structural biology approaches.
 2. Integrating bioinformatics and molecular biology to identify and characterize structurally and functionally conserved RNA elements.
 
