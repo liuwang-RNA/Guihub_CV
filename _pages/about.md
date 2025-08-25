@@ -92,7 +92,7 @@ Research interests
 ======
 
 <div class="research-card">
-  <h3><a href="{{ '/research/' | relative_url }}">Resolving the 3D structures of bacterial ncRNAs via cryo-EM</a></h3>
+  <h3><a href="{{ '/research/' | relative_url }}">Resolving the 3D structures of bacteria ncRNAs via cryo-EM</a></h3>
   <img src="{{ '/images/homepage/image1.png' | relative_url }}" alt="Resolving the 3D structures of bacteria ncRNAs via cryo-EM">
   <p><strong>RNA structures, multivalency, and catalysis.</strong><br>
   We resolve the three-dimensional structures of bacterial noncoding RNAs via cryo-EM and related biochemical methods:</p>
@@ -103,30 +103,55 @@ Research interests
   </ul>
 </div>
 
-<!-- 自定义列表样式 -->
+<div class="research-card">
+  <h3><a href="{{ '/research/' | relative_url }}">Discovery of conserved structural RNA elements</a></h3>
+  <img src="{{ '/images/homepage/image2.png' | relative_url }}" alt="Discovery of conserved structural RNA elements">
+  <p><strong>Comparative genomics → prediction → experimental validation.</strong><br>
+  We integrate computational mining and experimental validation to identify structurally and functionally conserved RNA elements.</p>
+</div>
+
+<!-- 自定义列表样式（统一放在底部） -->
 <style>
+  .research-card {
+    margin: 24px 0;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px;
+    background: #fff;
+  }
+  .research-card h3 {
+    margin-top: 0;
+    font-size: 1.3rem;
+    color: #1f2937;
+  }
+  .research-card img {
+    width: 100%;
+    height: auto;
+    margin: 12px 0;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    object-fit: cover;
+  }
+  .research-card p {
+    font-size: 1rem;
+    color: #374151;
+    margin: 0 0 8px 0;
+  }
   .custom-list {
-    list-style: none;         /* 去掉默认圆点 */
-    padding-left: 1em;        /* 左缩进，避免贴边 */
+    list-style: none;
+    padding-left: 1em;
   }
   .custom-list li {
     position: relative;
     margin: 6px 0;
-    padding-left: 1.2em;      /* 给自定义符号留空间 */
+    padding-left: 1.2em;
   }
   .custom-list li::before {
-    content: "·";             /* 自定义符号 */
+    content: "·";
     position: absolute;
     left: 0;
-    color: #444;              /* 符号颜色 */
-    font-size: 1.4rem;        /* 符号大小 */
+    color: #444;
+    font-size: 1.4rem;
     line-height: 1;
   }
 </style>
-
-<div class="research-card">
-  <h3><a href="{{ '/research/' | relative_url }}">Discovery of conserved structural RNA elements</a></h3>
-  <img src="{{ '/images/homepage/image2.png' | relative_url }}" alt="Discovery of conserved structural RNA elements">
-  <p>Comparative genomics, structural RNA elements mining, and experimental validation.</p>
-</div>
-
