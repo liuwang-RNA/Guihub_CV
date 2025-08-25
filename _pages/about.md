@@ -22,11 +22,73 @@ My research interests focus on:
 1. Elucidating the three-dimensional structures and molecular mechanisms of bacterial noncoding RNAs using cryo-electron microscopy and other structural biology approaches.
 2. Integrating bioinformatics and molecular biology to identify and characterize structurally and functionally conserved RNA elements.
 
-<div style="text-align:center; margin: 20px 0;">
-  <video autoplay loop muted playsinline style="max-width:90%; border-radius:10px;">
-    <source src="{{ '/images/homepage_banner.png' | relative_url }}" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+<!-- 四个视频 2×2 网格布局 -->
+<style>
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 两列 */
+    gap: 20px; /* 视频之间的间距 */
+    justify-items: center;
+    margin: 20px auto;
+    max-width: 1200px; /* 整体最大宽度 */
+  }
+  .video-item {
+    text-align: center;
+  }
+  .video-item video {
+    width: 100%;
+    max-width: 500px;  /* 每个视频最大宽度 */
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+  }
+  .video-caption {
+    margin-top: 8px;
+    font-size: 0.95rem;
+    color: #444;
+  }
+  @media (max-width: 900px) {
+    .video-grid {
+      grid-template-columns: 1fr; /* 小屏幕下变成一列 */
+    }
+  }
+</style>
+
+<div class="video-grid">
+  <!-- 视频 1 -->
+  <div class="video-item">
+    <video autoplay loop muted playsinline>
+      <source src="{{ '/images/homepage/Cte.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="video-caption">CryoEM structure of <em>Lactobacillus salivarius</em> ROOL RNA hexamer.</div>
+  </div>
+
+  <!-- 视频 2 -->
+  <div class="video-item">
+    <video autoplay loop muted playsinline>
+      <source src="{{ '/images/homepage/Efa.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="video-caption">CryoEM structure of <em>Enterococcus faecalis</em> ROOL RNA octamer</div>
+  </div>
+
+  <!-- 视频 3 -->
+  <div class="video-item">
+    <video autoplay loop muted playsinline>
+      <source src="{{ '/images/homepage/Cte.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="video-caption">CryoEM structure of <em>Comamonas testosteroni</em> circularly permuted group II intron</div>
+  </div>
+
+  <!-- 视频 4 -->
+  <div class="video-item">
+    <video autoplay loop muted playsinline>
+      <source src="{{ '/images/homepage/GOLLD.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="video-caption">CryoEM structure of <em>Streptococcus agalactiae</em> GOLLD RNA dodecamer</div>
+  </div>
 </div>
 
 A data-driven personal website
