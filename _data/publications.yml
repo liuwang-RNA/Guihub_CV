@@ -3,15 +3,36 @@ journals:
     authors: "Song, Y., Wang, L., Li, X., Song, H."
     journal: "BMC Oral Health"
     year: 2025
+    doi: "10.1186/s12903-025-05621-2"
 
   - title: "Functional relevance of CASP16 nucleic acid predictions as evaluated by structure providers"
     authors: "Kretsch, RC., et al."
     journal: "bioRxiv"
     year: 2025
+    doi: "10.1101/2025.04.15.649049"
 
+  - title: "Post-Treatment Apical Periodontitis: Endodontic Infection Contributes to Circulating Microbial DNA"
+    authors: "Zeng, Y., Wang, L., Wang, M., Liu, L., Song, Y., Song, D., Huang, D."
+    journal: "Aust Endod J"
+    year: 2025
+    doi: "10.1111/aej.12942"
+
+  - title: "Application of Real-time Augmented Reality-guided Osteotomy and Apex Location in Endodontic Microsurgery: A Surgical Simulation Study Based on 3D-printed Alveolar Bone Model"
+    authors: "Chen, Y., Liu, L., Qiu, S., Hu, C., Wang, L., Li, Y., Tan, X., Gao, Y., Huang, D."
+    journal: "J Endod"
+    year: 2023
+    doi: "10.1016/j.joen.2023.05.011"
+
+  - title: "NLRP10 promotes AGEs-induced NLRP1 and NLRP3 inflammasome activation via ROS/MAPK/NF-κB signaling in human periodontal ligament cells."
+    authors: "Yi, X., Song, Y., Xu, J., Wang, L., Liu, L., Huang, D., Zhang, L."
+    journal: "Odontology"
+    year: 2024
+    doi: "10.1007/s10266-023-00813-0"
+
+    
 conferences:
   - title: "/"
     authors: "/"
     venue: "/"
-    year: 2025
-    abstract: "/"
+    year: /
+    doi: "/"
