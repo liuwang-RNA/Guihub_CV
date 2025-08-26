@@ -1,0 +1,29 @@
+{% comment %}
+Reusable gallery include
+Usage:
+{% include life-gallery.html dir:"/images/life/soccer/" id:"soccer-gallery" caption:"Soccer Moments" %}
+{% endcomment %}
+
+{% assign gallery_files = site.static_files
+  | where_exp: "f", "f.path contains include.dir"
+  | where_exp: "f", "f.extname matches '\\.(jpg|jpeg|png|gif|webp)$'"
+  | sort: "name"
+  | reverse
+%}
+
+{% if gallery_files and gallery_files.size > 0 %}
+  <div id="{{ include.id }}" style="display:flex; flex-wrap:wrap; gap:1rem; justify-content:center;">
+    {% for f in gallery_files %}
+      <figure style="flex:1 1 300px; max-width:300px; text-align:center;">
+        <a href="{{ f.path | relative_url }}" target="_blank">
+          <img src="{{ f.path | relative_url }}" alt="{{ f.name }}" style="width:100%; border-radius:12px;">
+        </a>
+        {% if include.caption %}
+          <figcaption style="margin-top:0.5rem; font-size:0.9rem; color:#666;">{{ include.caption }}</figcaption>
+        {% endif %}
+      </figure>
+    {% endfor %}
+  </div>
+{% else %}
+  <p>还没有上传 {{ include.caption | default: "相册" }} 照片。</p>
+{% endif %}
