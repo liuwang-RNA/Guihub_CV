@@ -36,6 +36,7 @@ journals:
     doi: "10.1111/omi.12411"
 
   - title: "The expression of cyclic GMP–AMP synthase in human apical periodontitis: A laboratory investigation"
+    note: "Cover story"
     authors: "Yang, F.*, Liu, L.*, Wang, L., Ji, X., Zeng, Y., Du, J., Zhang, L.#, Huang, D.#"
     journal: "Int Endod J"
     date: 2023-02-27
@@ -58,3 +59,64 @@ journals:
     journal: "J Periodontol"
     date: 2022-02-03
     doi: "10.1002/JPER.20-0517"
+
+  - title: "Wnt4 regulates bone metabolism through IKK-NF-κB and ROCK signaling under occlusal traumatic periodontitis"
+    authors: "Xu, W., et al"
+    journal: "J Periodontal Res"
+    date: 2022-02-08
+    doi: "10.1111/jre.12975"
+
+  - title: "Semaphorin 7A accelerates the inflammatory osteolysis of periapical lesions"
+    authors: "Wang, L.*, Song, Y.*, Yi, X., Wu, C., Guo, Q., Zhou, X., Song, D., Zhang, L.#, Huang, D.#"
+    journal: "J Endod"
+    date: 2022-02-24
+    doi: "10.1016/j.joen.2022.01.020"
+
+  - title: "Potential relationship between clinical symptoms and the root canal microbiomes of root filled teeth based on the next‐generation sequencing"
+    authors: "Hou, Y., Wang, L., Zhang, L., Tan, X., Huang, D.#, Song, D.#"
+    journal: "Int Endod J"
+    date: 2021-10-28
+    doi: "10.1111/iej.13640"
+
+  - title: "The Potential Roles of T Cells in Periapical Lesions"
+    note: "Cover story"
+    authors: "Wang, L., Yang, F., Qiu, Y., Ye, L., Song, D.#, Huang, D.#"
+    journal: "J Endod"
+    date: 2021-10-07
+    doi: "10.1016/j.joen.2021.09.016"
+
+  - title: "The expression of semaphorin 7A in human periapical lesions"
+    authors: "Song, Y.#, Wang, L.#, Li, J., Yang, F., Gao, Y., Song, D., Sun, J., Ye, L., Zhang, L.#, Huang, D.#"
+    journal: "J Endod"
+    date: 2021-06-11
+    doi: "10.1016/j.joen.2021.06.005"
+
+  - title: "The involvement of semaphorin 7A in tumorigenic and immunoinflammatory regulation"
+    authors: "Song, Y., Wang, L., Zhang, L.#, Huang, D.#"
+    journal: "J Cell Physiol"
+    date: 2021-02-21
+    doi: "10.1002/jcp.30340"
+
+  - title: "The effects and potential applications of concentrated growth factor in dentin–pulp complex regeneration"
+    authors: "Li. Z, Liu, L., Wang, L., Song, D.#"
+    journal: "Stem Cell Res Ther"
+    date: 2021-06-19
+    doi: "10.1186/s13287-021-02446-y"
+
+  - title: "Potential roles of bone morphogenetic protein 9 in the odontogenic differentiation of dental pulp cells"
+    authors: "Li, X., Wang, L., Su, Q., Ye, L., Zhou, X., Zhang, L., Song, D.#, Huang, D.#"
+    journal: "J Endod"
+    date: 2020-10-28
+    doi: "10.1016/j.joen.2020.10.018"
+
+  - title: "Activity of Ligustrum robustum (Roxb.) Blume extract against the biofilm formation and exopolysaccharide synthesis of Streptococcus mutans"
+    authors: "Zhang, Z., Zeng, J., Zhou, X., Xu, Q., Li, C., Liu, Y., Zhang, C., Wang, L., Zeng, W.#, Li, Y.#"
+    journal: "Mol Oral Microbiol"
+    date: 2020-12-31
+    doi: "10.1111/omi.12328"
+
+  - title: "The emerging roles of semaphorin4D/CD100 in immunological diseases"
+    authors: "Wang, L., Li, X., Song, Y., Song, D.#, Huang, D.#"
+    journal: "Biochem Soc Trans"
+    date: 2020-12-18
+    doi: "10.1042/BST20200821"
