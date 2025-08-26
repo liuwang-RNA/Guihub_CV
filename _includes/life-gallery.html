@@ -1,27 +1,58 @@
 {% comment %}
-Usage:
+Reusable gallery include for Life albums
+
+Usage example:
 {% include life-gallery.html 
-   dir="/images/life/soccer/" 
-   id="soccer-gallery" 
-   caption="Soccer Moments" %}
+   dir='/images/life/soccer/' 
+   id='soccer-gallery' 
+   caption='Soccer Moments' %}
 {% endcomment %}
 
 {% assign gallery_files = site.static_files
   | where_exp: "f", "f.path contains include.dir"
-  | where_exp: "f", "f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.png' or f.extname == '.gif' or f.extname == '.webp'"
+  | where_exp: "f", "f.extname matches '\\.(jpg|jpeg|png|gif|webp)$'"
   | sort: "name"
   | reverse
 %}
 
 {% if gallery_files and gallery_files.size > 0 %}
-  <div id="{{ include.id }}" style="display:flex; flex-wrap:wrap; gap:1rem; justify-content:center;">
+  <style>
+    /* 简单响应式相册样式 */
+    #{{ include.id }} {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1rem;
+      justify-items: center;
+    }
+    #{{ include.id }} figure {
+      margin: 0;
+      text-align: center;
+    }
+    #{{ include.id }} img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      transition: transform 0.2s ease;
+    }
+    #{{ include.id }} img:hover {
+      transform: scale(1.05);
+    }
+    #{{ include.id }} figcaption {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+
+  <div id="{{ include.id }}">
     {% for f in gallery_files %}
-      <figure style="flex:1 1 300px; max-width:300px; text-align:center;">
+      <figure>
         <a href="{{ f.path | relative_url }}" target="_blank">
-          <img src="{{ f.path | relative_url }}" alt="{{ f.name }}" style="width:100%; border-radius:12px;">
+          <img src="{{ f.path | relative_url }}" alt="{{ f.name }}">
         </a>
         {% if include.caption %}
-          <figcaption style="margin-top:0.5rem; font-size:0.9rem; color:#666;">{{ include.caption }}</figcaption>
+          <figcaption>{{ include.caption }}</figcaption>
         {% endif %}
       </figure>
     {% endfor %}
