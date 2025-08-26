@@ -1,11 +1,10 @@
 {% comment %}
-Reusable gallery include for Life albums
+Reusable gallery include for Life albums (images only, no captions)
 
 Usage example:
 {% include life-gallery.html 
    dir='/images/life/soccer/' 
-   id='soccer-gallery' 
-   caption='Soccer Moments' %}
+   id='soccer-gallery' %}
 {% endcomment %}
 
 {% assign gallery_files = site.static_files
@@ -24,7 +23,6 @@ Usage example:
     }
     #{{ include.id }} figure {
       margin: 0;
-      text-align: center;
     }
     #{{ include.id }} img {
       width: 100%;
@@ -36,11 +34,6 @@ Usage example:
     #{{ include.id }} img:hover {
       transform: scale(1.05);
     }
-    #{{ include.id }} figcaption {
-      margin-top: 0.5rem;
-      font-size: 0.9rem;
-      color: #666;
-    }
   </style>
 
   <div id="{{ include.id }}">
@@ -48,15 +41,12 @@ Usage example:
       {% if f.extname == ".jpg" or f.extname == ".jpeg" or f.extname == ".png" or f.extname == ".gif" or f.extname == ".webp" %}
         <figure>
           <a href="{{ f.path | relative_url }}" target="_blank">
-            <img src="{{ f.path | relative_url }}" alt="{{ f.name }}">
+            <img src="{{ f.path | relative_url }}" alt="">
           </a>
-          {% if include.caption %}
-            <figcaption>{{ include.caption }}</figcaption>
-          {% endif %}
         </figure>
       {% endif %}
     {% endfor %}
   </div>
 {% else %}
-  <p>还没有上传 {{ include.caption | default: "相册" }} 照片。</p>
+  <p>还没有上传照片。</p>
 {% endif %}
