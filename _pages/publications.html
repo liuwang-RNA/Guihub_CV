@@ -44,9 +44,10 @@ author_profile: true
 <ul>
   {% for paper in site.data.publications.journals %}
     <li>
-      {{ paper.authors | replace: "Wang, L.", "<strong>Wang, L.</strong>" }},
+      {{ paper.authors | replace: "Wang, L.", "<strong><em>Wang, L.</em></strong>" }},
       <em>{{ paper.title }}</em>. 
       <strong><em>{{ paper.journal }}</em></strong>, {{ paper.year }}.
+      {% if paper.doi %}<a href="https://doi.org/{{ paper.doi }}" target="_blank">[DOI]</a>{% endif %}
     </li>
   {% endfor %}
 </ul>
@@ -56,10 +57,10 @@ author_profile: true
 <ul>
   {% for conf in site.data.publications.conferences %}
     <li>
-      {{ conf.authors | replace: "Wang, L.", "<strong>Wang, L.</strong>" }},
+      {{ conf.authors | replace: "Wang, L.", "<strong><em>Wang, L.</em></strong>" }},
       <em>{{ conf.title }}</em>. 
       <strong><em>{{ conf.venue }}</em></strong>, {{ conf.year }}.
-      {% if conf.abstract %}<a href="{{ conf.abstract }}">[Abstract]</a>{% endif %}
+      {% if conf.doi %}<a href="https://doi.org/{{ conf.doi }}" target="_blank">[DOI]</a>{% endif %}
     </li>
   {% endfor %}
 </ul>
