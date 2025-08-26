@@ -7,7 +7,7 @@ author_profile: true
 
 {% assign gallery_files = site.static_files
   | where_exp: "f", "f.path contains '/assets/images/life/soccer/'"
-  | where_exp: "f", "f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.png' or f.extname == '.gif' or f.extname == '.webp'"
+  | where_exp: "f", "f.extname matches '\\.(jpg|jpeg|png|gif|webp)$'"
   | sort: "name"
   | reverse
 %}
