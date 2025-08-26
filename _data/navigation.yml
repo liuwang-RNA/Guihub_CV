@@ -18,6 +18,6 @@ main:
     url: /news/
   - title: "📄 CV"
     url: /cv/
-  - title: "🌱 Out of lab"
-    url: /out_of_lab/
+  - title: "🌱 Life"
+    url: /life/
 
