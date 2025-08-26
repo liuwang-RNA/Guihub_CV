@@ -44,24 +44,23 @@ author_profile: true
 <ul>
   {% for paper in site.data.publications.journals %}
     <li>
-      <strong>{{ paper.authors }}</strong>, 
+      {{ paper.authors | replace: "Wang, L.", "<strong>Wang, L.</strong>" }},
       <em>{{ paper.title }}</em>. 
-      <strong>{{ paper.journal }}</strong>, {{ paper.year }}.
-      {% if paper.pdf %}<a href="{{ paper.pdf }}">[PDF]</a>{% endif %}
+      <strong><em>{{ paper.journal }}</em></strong>, {{ paper.year }}.
     </li>
   {% endfor %}
 </ul>
 
-<!-- 🔹 Conference Papers -->
 <h2>🎤 Conference Papers</h2>
 <hr/>
 <ul>
   {% for conf in site.data.publications.conferences %}
     <li>
-      <strong>{{ conf.authors }}</strong>, 
+      {{ conf.authors | replace: "Wang, L.", "<strong>Wang, L.</strong>" }},
       <em>{{ conf.title }}</em>. 
-      {{ conf.venue }}, {{ conf.year }}.
+      <strong><em>{{ conf.venue }}</em></strong>, {{ conf.year }}.
       {% if conf.abstract %}<a href="{{ conf.abstract }}">[Abstract]</a>{% endif %}
     </li>
   {% endfor %}
 </ul>
+
