@@ -41,12 +41,13 @@ author_profile: true
 <!-- 🔹 普通 Journal Articles (从 _data/publications.yml 渲染) -->
 <h2>📖 Other Journal Articles</h2>
 <hr/>
+{% assign journals_sorted = site.data.publications.journals | sort: "date" | reverse %}
 <ul>
-  {% for paper in site.data.publications.journals %}
+  {% for paper in journals_sorted %}
     <li>
       {{ paper.authors | replace: "Wang, L.", "<strong><em>Wang, L.</em></strong>" }},
       <em>{{ paper.title }}</em>. 
-      <strong><em>{{ paper.journal }}</em></strong>, {{ paper.year }}.
+      <strong><em>{{ paper.journal }}</em></strong>, {{ paper.date | date: "%Y" }}.
       {% if paper.doi %}<a href="https://doi.org/{{ paper.doi }}" target="_blank">[DOI]</a>{% endif %}
     </li>
   {% endfor %}
@@ -54,14 +55,16 @@ author_profile: true
 
 <h2>🎤 Conference Papers</h2>
 <hr/>
+{% assign conf_sorted = site.data.publications.conferences | sort: "date" | reverse %}
 <ul>
-  {% for conf in site.data.publications.conferences %}
+  {% for conf in conf_sorted %}
     <li>
       {{ conf.authors | replace: "Wang, L.", "<strong><em>Wang, L.</em></strong>" }},
       <em>{{ conf.title }}</em>. 
-      <strong><em>{{ conf.venue }}</em></strong>, {{ conf.year }}.
+      <strong><em>{{ conf.venue }}</em></strong>, {{ conf.date | date: "%Y" }}.
       {% if conf.doi %}<a href="https://doi.org/{{ conf.doi }}" target="_blank">[DOI]</a>{% endif %}
     </li>
   {% endfor %}
 </ul>
+
 
