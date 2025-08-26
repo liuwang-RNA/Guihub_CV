@@ -11,26 +11,22 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Visiting students in RNA biology, the State Key Laboratory of Biotherapy/West China of Hospital, 2022-2024, Supervisor: Prof. Zhaoming Su
+* D.D.S in Endodontics, Stomatology, West China College of Stomatology, 2021-2024, Supervisor: Prof. Dingming Huang
+* M.S. in Endodontics, Stomatology, West China College of Stomatology, 2017-2020, Supervisor: Prof. Dingming Huang
+* B.S. in Stomatology, West China College of Stomatology, Sichuan University, 2012-2017
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2024-now: postdoctoral researcher
+  * Sichuan University
+  * Duties includes: leading independent research on bacterial non-coding RNAs, including structural–functional studies, project applications, and graduate student mentoring.
+  * Supervisor: Prof. Zhaoming Su & Prof. Dingming Huang
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2020-2021: research assistant
+  * Sichuan University
+  * Duties includes: assisted in project execution and management in bacterial RNA biology under supervisor’s guidance.
+  * Supervisor: Prof. Dingming Huang
   
 Skills
 ======
