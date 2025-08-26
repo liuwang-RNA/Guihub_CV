@@ -1,0 +1,10 @@
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+  {% for album in site.data.life_albums %}
+    <div style="flex: 1 1 300px; text-align:center;">
+      <a href="{{ album.url | relative_url }}">
+        <img src="{{ album.cover | relative_url }}" alt="{{ album.title }}" style="max-width:100%; border-radius:12px;">
+      </a>
+      <p style="margin-top:0.5rem;">{{ album.title }}</p>
+    </div>
+  {% endfor %}
+</div>
