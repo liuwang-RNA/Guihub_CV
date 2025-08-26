@@ -6,7 +6,10 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">
+    You can also find my articles on 
+    <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
+  </div>
 {% endif %}
 
 {% include base_path %}
@@ -26,26 +29,39 @@ author_profile: true
   }
 </style>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
+<!-- 🔹 Featured manuscripts (继续用 _publications/*.md 渲染) -->
+<h2>📌 Featured Manuscripts</h2>
+<hr/>
+{% for post in site.publications reversed %}
+  {% if post.category == "manuscripts" %}
     {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<!-- 🔹 普通 Journal Articles (从 _data/publications.yml 渲染) -->
+<h2>📖 Other Journal Articles</h2>
+<hr/>
+<ul>
+  {% for paper in site.data.publications.journals %}
+    <li>
+      <strong>{{ paper.authors }}</strong>, 
+      <em>{{ paper.title }}</em>. 
+      <strong>{{ paper.journal }}</strong>, {{ paper.year }}.
+      {% if paper.pdf %}<a href="{{ paper.pdf }}">[PDF]</a>{% endif %}
+    </li>
   {% endfor %}
-{% endif %}
+</ul>
 
-
-
+<!-- 🔹 Conference Papers -->
+<h2>🎤 Conference Papers</h2>
+<hr/>
+<ul>
+  {% for conf in site.data.publications.conferences %}
+    <li>
+      <strong>{{ conf.authors }}</strong>, 
+      <em>{{ conf.title }}</em>. 
+      {{ conf.venue }}, {{ conf.year }}.
+      {% if conf.abstract %}<a href="{{ conf.abstract }}">[Abstract]</a>{% endif %}
+    </li>
+  {% endfor %}
+</ul>
