@@ -14,7 +14,7 @@ I am currently a postdoctoral researcher at <a href="https://www.hxkq.org/" targ
 <a href="https://en.scu.edu.cn/" target="_blank">Sichuan University</a>.
 During my doctoral studies, I was jointly supervised by 
 <a href="https://zsulab.com/" target="_blank">Prof. Zhaoming Su</a> and <a href="https://www.hxkq.org/Html/News/Articles/10880.html" target="_blank">Prof. Dingming Huang</a>, 
-under whose guidance I published several research articles in leading journals such as 
+under whose guidance I published several research articles such as 
 <a href="https://liuwang-rna.github.io/Guihub_CV/publication/2025-05-01_Science" target="_blank"><strong><em>Science</em></strong></a>, 
 <a href="https://liuwang-rna.github.io/Guihub_CV/publication/2025-06-15_NSMB" target="_blank"><strong><em>Nature Structural & Molecular Biology</em></strong></a>, 
 and <a href="https://liuwang-rna.github.io/Guihub_CV/publication/2025-05-15" target="_blank"><strong><em>Nature Protocols</em></strong></a>.
