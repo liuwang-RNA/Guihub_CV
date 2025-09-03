@@ -106,7 +106,7 @@ Research interests
 <div class="research-card">
   <h3><a href="{{ '/research/' | relative_url }}">Discovery of conserved structural RNA elements</a></h3>
   <img src="{{ '/images/homepage/image2.png' | relative_url }}" alt="Discovery of conserved structural RNA elements">
-  <p><strong>Comparative genomics → prediction → experimental validation.</strong><br>
+  <p><strong>Comparative genomics, prediction, and experimental validation.</strong><br>
   We integrate computational mining and experimental validation to identify structurally and functionally conserved RNA elements.</p>
 </div>
 
