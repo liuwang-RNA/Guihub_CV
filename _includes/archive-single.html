@@ -1,6 +1,11 @@
 {% include base_path %}
 
-{% if post.header.teaser %}
+{%- comment -%}
+优先级：post.image > post.header.teaser > site.teaser
+{%- endcomment -%}
+{% if post.image %}
+  {% assign teaser = post.image %}
+{% elsif post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
   {% assign teaser = site.teaser %}
@@ -14,17 +19,17 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
-    {% endif %}
+{% if teaser %}
+  <div class="archive__item-teaser">
+    <img src=
+      {% if teaser contains "://" %}
+        "{{ teaser }}"
+      {% else %}
+        "{{ teaser | prepend: base_path }}"
+      {% endif %}
+      alt="{{ title }}" style="max-width:100%; border-radius:12px;">
+  </div>
+{% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
   <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
