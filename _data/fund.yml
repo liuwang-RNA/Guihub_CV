@@ -1,0 +1,15 @@
+fund:
+  - type: "Young Scientists Fund (Category C)"
+    agency: "National Natural Science Foundation of China (NSFC)"
+    role: "PI"
+    period: "2026–2028"
+
+  - type: "China National Postdoctoral Program for Innovative Talents"
+    agency: "China Postdoctoral Science Foundation"
+    role: "PI"
+    period: "2025–2027"
+
+  - type: "Sichuan University Postdoctoral Interdisciplinary Innovation Fund"
+    agency: "Sichuan University"
+    role: "PI"
+    period: "2025–2026"
