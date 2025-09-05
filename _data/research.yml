@@ -20,4 +20,4 @@ highlights:
       - "Functional validation and mechanism"
     links:
       - text: "Nature Structural & Molecular Biology (2025)"
-       url: "{{ '/publications/2025-06-15_NSMB/' | relative_url }}"
+        url: "{{ '/publications/2025-06-15_NSMB/' | relative_url }}"
