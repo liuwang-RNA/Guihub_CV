@@ -1,0 +1,23 @@
+highlights:
+  - id: r1
+    title: "Resolving the 3D structures of bacterial ncRNAs via cryo-EM"
+    image: "/images/homepage/image1.png"   # 换成你的图
+    summary: "RNA multivalency, catalysis, and higher-order assemblies. We determine RNA/RNP structures and mechanisms via cryo-EM and biochemistry."
+    bullets:
+      - "Self-splicing ribozymes: two-step splicing and circRNA formation"
+      - "RNA-only oligomers: principles of higher-order homo-assembly"
+    links:
+      - text: "Science (2025)"
+        url: "{{ '/publications/2025-05-01_Science/' | relative_url }}"
+      - text: "Nature Structural & Molecular Biology (2025)"
+        url: "{{ '/publications/2025-06-15_NSMB/' | relative_url }}"
+  - id: r2
+    title: "Discovery of conserved structural RNA elements"
+    image: "/images/homepage/image2.png"
+    summary: "Comparative genomics, structural and function prediction, validation to uncover conserved structural motifs."
+    bullets:
+      - "Genome-scale mining of structural RNAs"
+      - "Functional validation and mechanism"
+    links:
+      - text: "Nature Structural & Molecular Biology (2025)"
+       url: "{{ '/publications/2025-06-15_NSMB/' | relative_url }}"
