@@ -6,4 +6,20 @@ author_profile: true
 ---
 
 {% include base_path %}
+
+<!-- 🔬 Research Highlights -->
 {% include research-highlights.html %}
+
+<hr>
+
+<!-- 💰 Funding -->
+<h2>Funding</h2>
+{% assign funds = site.data.fund.funding %}
+<ul>
+  {% for f in funds %}
+    <li>
+      <strong>{{ f.type }}</strong> — {{ f.agency }}
+      ({{ f.role }}, {{ f.period }})
+    </li>
+  {% endfor %}
+</ul>
