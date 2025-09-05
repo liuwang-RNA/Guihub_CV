@@ -4,18 +4,16 @@
   {% for h in hs %}
   <article id="{{ h.id }}" class="archive__item">
     {% if h.image %}
-      <img src="{{ h.image | relative_url }}" alt="{{ h.title }}" style="max-width:300px; border-radius:12px; margin-bottom:1rem;">
+      <img src="{{ h.image | relative_url }}" alt="{{ h.title }}"
+           style="max-width:300px; border-radius:12px; margin-bottom:1rem;">
     {% endif %}
-
     <h2>{{ h.title }}</h2>
     <p>{{ h.summary }}</p>
-
     <ul>
       {% for b in h.bullets %}
         <li>{{ b }}</li>
       {% endfor %}
     </ul>
-
     <p>
       {% for l in h.links %}
         <a href="{{ l.url }}">{{ l.text }}</a>{% unless forloop.last %} · {% endunless %}
