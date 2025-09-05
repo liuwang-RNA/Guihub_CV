@@ -8,18 +8,46 @@ author_profile: true
 {% include base_path %}
 
 <!-- 🔬 Research Highlights -->
-{% include research-highlights.html %}
-
-<hr>
+{% assign hs = site.data.research.highlights %}
+{% if hs and hs.size > 0 %}
+  <div class="grid__wrapper">
+    {% for h in hs %}
+    <article id="{{ h.id }}" class="archive__item">
+      {% if h.image %}
+        <img src="{{ h.image | relative_url }}" alt="{{ h.title }}"
+             style="max-width:300px; border-radius:12px; margin-bottom:1rem;">
+      {% endif %}
+      <h2>{{ h.title }}</h2>
+      <p>{{ h.summary }}</p>
+      <ul>
+        {% for b in h.bullets %}
+          <li>{{ b }}</li>
+        {% endfor %}
+      </ul>
+      <p>
+        {% for l in h.links %}
+          <a href="{{ l.url }}">{{ l.text }}</a>{% unless forloop.last %} · {% endunless %}
+        {% endfor %}
+      </p>
+    </article>
+    <hr>
+    {% endfor %}
+  </div>
+{% else %}
+  <p><em>No highlights found. (Check <code>_data/research.yml</code>)</em></p>
+{% endif %}
 
 <!-- 💰 Funding -->
 <h2>Funding</h2>
 {% assign funds = site.data.fund.fund %}
-<ul>
-  {% for f in funds %}
-    <li>
-      <strong>{{ f.type }}</strong> — {{ f.agency }}
-      ({{ f.role }}, {{ f.period }})
-    </li>
-  {% endfor %}
-</ul>
+{% if funds and funds.size > 0 %}
+  <ul>
+    {% for f in funds %}
+      <li>
+        <strong>{{ f.type }}</strong> — {{ f.agency }} ({{ f.role }}, {{ f.period }})
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p><em>No funding entries found. (Check <code>_data/fund.yml</code>)</em></p>
+{% endif %}
